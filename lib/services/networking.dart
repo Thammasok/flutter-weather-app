@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'package:clima/screens/loading_screen.dart';
 import 'package:http/http.dart';
 
 class NetworkHelper {
