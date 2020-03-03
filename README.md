@@ -24,3 +24,19 @@ We’re going to make a weather app inspired by the beautiful designs made by [O
 - Learn about the lifecycle of Stateful Widgets and how to override them.
 - How to use the Geolocator package to get live location data for both iOS and Android.
 - How to use the TextField Widget to take user input.
+
+## Permission
+### Android
+```
+    andriod/app/src/main/AndroidManifest.xml
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+```
+
+### IOS
+```
+    ios/Runner/Info.plist
+
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This app needs access to location when open.</string>
+```
